@@ -51,20 +51,20 @@
         default_layer {
             bindings = <
 &kp LEFT_ARROW   &kp LG(C)  &mkp LCLK  &bhm LG(Z) LG(V)  &kp RIGHT_ARROW
-&bhm PG_UP Q     &bhm N1 W  &bhm N2 E  &bhm N3 R         &bhm LPAR T       &bhm RPAR Y     &bhm UNDER U  &bhm MINUS I  &bhm PLUS O     &bhm PAGE_DOWN P
-&bhm CAPSLOCK A  &bhm N4 S  &bhm N5 D  &bhm N6 F         &bhm SLASH G      &bhm COLON H    &bhm SEMI J   &bhm APOS K   &bhm DQT L      &kp BSPC
-&kp LSHFT        &bhm N7 Z  &bhm N8 X  &bhm N9 C         &bhm QMARK V      &bhm EXCL B     &bhm COMMA N  &bhm DOT M    &bhm DOT COMMA  &kp ENTER
-                            &kp LCTRL                    &kp LEFT_COMMAND  &kp SPACE       &tog 2        &tog 1
+&bhm PG_UP Q     &bhm N1 W  &bhm N2 E  &bhm N3 R         &bhm LPAR T      &bhm RPAR Y     &bhm UNDER U  &bhm MINUS I  &bhm PLUS O     &bhm PAGE_DOWN P
+&bhm CAPSLOCK A  &bhm N4 S  &bhm N5 D  &bhm N6 F         &bhm SLASH G     &bhm COLON H    &bhm SEMI J   &bhm APOS K   &bhm DQT L      &kp BSPC
+&kp LSHFT        &bhm N7 Z  &bhm N8 X  &bhm N9 C         &bhm QMARK V     &bhm EXCL B     &bhm COMMA N  &bhm DOT M    &bhm DOT COMMA  &kp ENTER
+                            &kp LCTRL                    &kp DEL          &kp SPACE       &tog 2        &tog 1
             >;
         };
 
         sym_layer {
             bindings = <
 &kp LEFT_ARROW      &kp LG(C)  &mkp LCLK  &bhm LG(Z) LG(V)  &kp RIGHT_ARROW
-&kp HASH            &kp N1     &kp N2     &kp N3            &mt LBKT LPAR    &mt RBKT RPAR    &kp PG_UP       &kp UP_ARROW    &kp PAGE_DOWN  &kp AT
-&bhm CAPSLOCK STAR  &kp N4     &kp N5     &kp N6            &kp SLASH        &kp COLON        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT      &kp BSPC
-&kp LSHFT           &kp N7     &kp N8     &kp N9            &kp QMARK        &kp EXCL         &kp COMMA       &kp DOT         &kp COMMA      &kp ENTER
-                               &kp LCTRL                    &kp N0           &kp SPACE        &tog 2          &tog 1
+&kp PAGE_UP         &kp N1     &kp N2     &kp N3            &mt LBKT LPAR    &mt RBKT RPAR    &kp MINUS       &kp UP_ARROW    &kp PLUS        &kp PAGE_DOWN
+&bhm CAPSLOCK STAR  &kp N4     &kp N5     &kp N6            &kp SLASH        &kp COLON        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT       &kp BSPC
+&kp LSHFT           &kp N7     &kp N8     &kp N9            &kp N0           &kp EXCL         &kp COMMA       &kp DOT         &bhm DOT COMMA  &kp ENTER
+                               &kp LCTRL                    &kp DEL          &kp SPACE        &tog 2          &tog 1
             >;
         };
 
